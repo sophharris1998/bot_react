@@ -1,0 +1,27 @@
+.App{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+
+}
+
+.main{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  margin: 10px 0 0 0;
+
+
+
+}
+
+.App__userInput{
+
+  display: flex;
+  justify-content: center;
+
+}
