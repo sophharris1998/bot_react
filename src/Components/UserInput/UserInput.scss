@@ -1,5 +1,11 @@
-.userInputBox {
+.userInputBox{
     height: 5rem;
     width: 20rem;
     margin-bottom: 1rem;
+    border: solid 10px #6d00fc;
+}
+
+.userInput_container{
+    display: flex;
+    justify-content: center;
 }
