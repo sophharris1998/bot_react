@@ -7,7 +7,8 @@ const App = () => {
 
   const userFirstMessage = (event) => {
     setUserMessage(event.target.value);
-    console.log(userMessage);
+    var messageTag = Array.from(document.getElementsByClassName("message"))[0];
+    messageTag.innerText = userMessage;
   };
 
   return (
@@ -16,7 +17,7 @@ const App = () => {
         <h1>JSM</h1>
       </header>
       <main className="main">
-        <p>This is main</p>
+        <p className="message"></p>
       </main>
       <div className="App__userInput">
         <UserInput userFirstMessage={userFirstMessage} />
